@@ -1,0 +1,9 @@
+.theme {
+  background-color: #212529 !important;
+}
+.back {
+  &:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+}

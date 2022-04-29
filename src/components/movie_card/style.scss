@@ -1,0 +1,26 @@
+.configImage {
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid #444;
+  .config {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.fadeInformation {
+  position: absolute;
+  align-items: center;
+  color: black;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 100%;
+  background-color: oldlace;
+  opacity: 0.8;
+}
